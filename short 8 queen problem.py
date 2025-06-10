@@ -1,6 +1,3 @@
-
-
-
 def solve(r=0, p=[-1]*8):
     if r == 8:
         for i in p: print(" ".join("Q" if j == i else "." for j in range(8)))
